@@ -5,7 +5,7 @@ import utils
 import requests
 from openai import OpenAI
 
-st.title("Habit Tracker")
+st.title("Habit_Tracker")
 
 video_file = open("Habit_Tracker.mp4", "rb")
 video_bytes = video_file.read()
