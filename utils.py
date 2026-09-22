@@ -52,8 +52,6 @@ print(daily_quote())
 
 
 openai_api_key = st.secrets["OPENAI_API_KEY"]
-if not openai_api_key:
-    raise ValueError("OPENAI_API_KEY")
 client = OpenAI( base_url="https://openrouter.ai/api/v1",api_key=openai_api_key)
 def get_llm_response(prompt):
     completion = client.chat.completions.create(
