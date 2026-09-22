@@ -40,6 +40,9 @@ The habit data is stored in a CSV file and managed using Pandas.
 
 The application uses the data to calculate target and completion rates.
 
+##  video 
+https://drive.google.com/file/d/16XLUve9aohxD2C1TSF1EzyfcTqS_3iFd/view?usp=sharing
+
 ## Author
 
 **Wadeea Almutawa**
