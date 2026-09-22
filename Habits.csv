@@ -1,0 +1,26 @@
+ID,Habit,Frequency,Target,Category,Start Date,Status
+1.0,Drink Water,wadeea,8.0,Health,8/1/2026,UNActive
+2.0,Exercise,Weekly,3.0,Health,8/1/2026,Active
+3.0,Read,Daily,1.0,Learning,8/2/2026,Active
+4.0,Study Python,Daily,1.0,Learning,8/3/2026,Active
+5.0,Walk,Daily,30.0,Health,8/4/2026,Active
+6.0,Sleep Early,Daily,1.0,Wellness,8/5/2026,Active
+7.0,Meditation,Daily,10.0,Wellness,8/5/2026,Active
+8.0,Plan Day,Daily,1.0,Productivity,8/6/2026,Active
+9.0,Learn English,Weekly,4.0,Learning,8/7/2026,Active
+10.0,Journaling,Daily,1.0,Wellness,8/8/2026,Active
+11.0,Organize Tasks,Weekly,2.0,Productivity,8/10/2026,Active
+12.0,Stretching,Daily,15.0,Health,8/12/2026,Active
+13.0,Walk,Monthly,12.0,Health,6/8/2027,Active
+,Drink Water,Daily,1.0,Health,2026-09-17,Active
+,learning english,Daily,3.0,Learning,2026-09-17,Active
+,reading,Daily,6 pages,Learning,2026-09-18,Active
+,learning Frances ,Weekly,30 new word,Learning,2026-09-19,Active
+,,Daily,5 pages,Learning,2026-09-19,Active
+,,,,Learning,2026-09-19,Active
+,,Daily,3,Health,2026-09-20,Active
+,Drink Water,Daily,4,Health,2026-09-20,Active
+,dring water,Daily,3,Health,2026-09-20,Active
+,reading,Daily,0,Health,2026-09-20,Active
+,reading,Daily,0,Health,2026-09-20,Active
+,reading book,Daily,2 pages,Learning,2026-09-21,Active
