@@ -3,7 +3,7 @@ import datetime
 import streamlit as st
 import utils
 import requests
-#from openai import OpenAI
+from openai import OpenAI
 
 st.title("Habit_Tracker")
 
