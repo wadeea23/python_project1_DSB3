@@ -3,6 +3,7 @@ import streamlit as st
 import time 
 import datetime
 import requests
+from openai import OpenAI
 
 
 def load_data():
@@ -72,6 +73,9 @@ def get_llm_response(prompt):
 
     response = completion.choices[0].message.content
     return response
+
+
+
 
 
 
