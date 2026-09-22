@@ -52,7 +52,8 @@ print(daily_quote())
 
 
 openai_api_key = st.secrets["OPENAI_API_KEY"]
-client = OpenAI( base_url="https://openrouter.ai/api/v1",api_key=openai_api_key)
+client = OpenAI( base_url="https://openrouter.ai/api/v1", api_key=openai_api_key)
+
 def get_llm_response(prompt):
     completion = client.chat.completions.create(
         model="nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -61,7 +62,10 @@ def get_llm_response(prompt):
                 "role": "system",
                 "content": "you are a personal habit coach, Give simple advice in Arabic",
             },
-            {"role": "user", "content": prompt},
+            {
+                "role": "user",
+                "content": prompt,
+            },
         ],
         temperature=0.0,
     )
