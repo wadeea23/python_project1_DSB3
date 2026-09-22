@@ -3,7 +3,7 @@ import streamlit as st
 import time 
 import datetime
 import requests
-from openai import OpenAI
+
 
 def load_data():
     data = pd.read_csv("Habits.csv")
